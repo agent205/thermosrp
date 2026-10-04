@@ -1,0 +1,15 @@
+{
+  "name": "thermosrp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "THERMO-SRP - Thermal-Mechanical Risk-Aware Well-to-Surface Digital Twin (heavy-oil CSS + SRP operator decision cockpit prototype).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.21"
+  }
+}

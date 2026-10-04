@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>THERMO-SRP — Thermal-Mechanical Risk-Aware Well Twin</title>
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- ================= STICKY HEADER (topbar + nav + demo strip) ================= -->
+  <div class="sticky-header" id="stickyHeader">
+    <div class="topbar" id="topbar"></div>
+    <nav class="nav" id="nav"></nav>
+    <div class="demo-strip" id="demoBar"></div>
+  </div>
+
+  <!-- ================= MAIN ================= -->
+  <main>
+    <section class="screen" id="screen-overview"></section>
+    <section class="screen" id="screen-welltwin"></section>
+    <section class="screen" id="screen-operations"></section>
+    <section class="screen" id="screen-whatif"></section>
+    <section class="screen" id="screen-maintenance"></section>
+  </main>
+</div>
+
+<!-- ================= MODAL ROOT ================= -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" id="modalBody"></div>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>
